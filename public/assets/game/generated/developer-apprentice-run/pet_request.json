@@ -1,0 +1,217 @@
+{
+  "pet_id": "developer-apprentice",
+  "display_name": "Developer Apprentice",
+  "description": "A chibi pixel-platformer developer character for Promptbound.",
+  "created_at": "2026-05-09T07:22:40.391140+00:00",
+  "atlas": {
+    "columns": 8,
+    "rows": 9,
+    "cell_width": 192,
+    "cell_height": 208,
+    "width": 1536,
+    "height": 1872
+  },
+  "rows": [
+    {
+      "state": "idle",
+      "row": 0,
+      "frames": 6,
+      "purpose": "neutral breathing/blinking loop"
+    },
+    {
+      "state": "running-right",
+      "row": 1,
+      "frames": 8,
+      "purpose": "rightward locomotion loop"
+    },
+    {
+      "state": "running-left",
+      "row": 2,
+      "frames": 8,
+      "purpose": "leftward locomotion loop"
+    },
+    {
+      "state": "waving",
+      "row": 3,
+      "frames": 4,
+      "purpose": "greeting gesture with raised wave and return"
+    },
+    {
+      "state": "jumping",
+      "row": 4,
+      "frames": 5,
+      "purpose": "anticipation, lift, peak, descent, settle"
+    },
+    {
+      "state": "failed",
+      "row": 5,
+      "frames": 8,
+      "purpose": "sad, failed, or deflated reaction"
+    },
+    {
+      "state": "waiting",
+      "row": 6,
+      "frames": 6,
+      "purpose": "patient waiting loop with small motion"
+    },
+    {
+      "state": "running",
+      "row": 7,
+      "frames": 6,
+      "purpose": "generic in-place running loop"
+    },
+    {
+      "state": "review",
+      "row": 8,
+      "frames": 6,
+      "purpose": "focused inspecting or review loop"
+    }
+  ],
+  "layout_guides": [
+    {
+      "state": "idle",
+      "path": "references/layout-guides/idle.png",
+      "width": 1152,
+      "height": 208,
+      "frames": 6,
+      "cell_width": 192,
+      "cell_height": 208,
+      "safe_margin_x": 18,
+      "safe_margin_y": 16,
+      "usage": "layout guide input only; do not copy visible guide lines into generated sprite strips"
+    },
+    {
+      "state": "running-right",
+      "path": "references/layout-guides/running-right.png",
+      "width": 1536,
+      "height": 208,
+      "frames": 8,
+      "cell_width": 192,
+      "cell_height": 208,
+      "safe_margin_x": 18,
+      "safe_margin_y": 16,
+      "usage": "layout guide input only; do not copy visible guide lines into generated sprite strips"
+    },
+    {
+      "state": "running-left",
+      "path": "references/layout-guides/running-left.png",
+      "width": 1536,
+      "height": 208,
+      "frames": 8,
+      "cell_width": 192,
+      "cell_height": 208,
+      "safe_margin_x": 18,
+      "safe_margin_y": 16,
+      "usage": "layout guide input only; do not copy visible guide lines into generated sprite strips"
+    },
+    {
+      "state": "waving",
+      "path": "references/layout-guides/waving.png",
+      "width": 768,
+      "height": 208,
+      "frames": 4,
+      "cell_width": 192,
+      "cell_height": 208,
+      "safe_margin_x": 18,
+      "safe_margin_y": 16,
+      "usage": "layout guide input only; do not copy visible guide lines into generated sprite strips"
+    },
+    {
+      "state": "jumping",
+      "path": "references/layout-guides/jumping.png",
+      "width": 960,
+      "height": 208,
+      "frames": 5,
+      "cell_width": 192,
+      "cell_height": 208,
+      "safe_margin_x": 18,
+      "safe_margin_y": 16,
+      "usage": "layout guide input only; do not copy visible guide lines into generated sprite strips"
+    },
+    {
+      "state": "failed",
+      "path": "references/layout-guides/failed.png",
+      "width": 1536,
+      "height": 208,
+      "frames": 8,
+      "cell_width": 192,
+      "cell_height": 208,
+      "safe_margin_x": 18,
+      "safe_margin_y": 16,
+      "usage": "layout guide input only; do not copy visible guide lines into generated sprite strips"
+    },
+    {
+      "state": "waiting",
+      "path": "references/layout-guides/waiting.png",
+      "width": 1152,
+      "height": 208,
+      "frames": 6,
+      "cell_width": 192,
+      "cell_height": 208,
+      "safe_margin_x": 18,
+      "safe_margin_y": 16,
+      "usage": "layout guide input only; do not copy visible guide lines into generated sprite strips"
+    },
+    {
+      "state": "running",
+      "path": "references/layout-guides/running.png",
+      "width": 1152,
+      "height": 208,
+      "frames": 6,
+      "cell_width": 192,
+      "cell_height": 208,
+      "safe_margin_x": 18,
+      "safe_margin_y": 16,
+      "usage": "layout guide input only; do not copy visible guide lines into generated sprite strips"
+    },
+    {
+      "state": "review",
+      "path": "references/layout-guides/review.png",
+      "width": 1152,
+      "height": 208,
+      "frames": 6,
+      "cell_width": 192,
+      "cell_height": 208,
+      "safe_margin_x": 18,
+      "safe_margin_y": 16,
+      "usage": "layout guide input only; do not copy visible guide lines into generated sprite strips"
+    }
+  ],
+  "references": [
+    {
+      "path": "/Users/gvt-akilesh/Developer/aie-hack/public/assets/game/generated/developer-apprentice-run/references/reference-01.png",
+      "width": 2172,
+      "height": 724,
+      "mode": "RGBA",
+      "format": "PNG",
+      "source_path": "/Users/gvt-akilesh/Developer/aie-hack/public/assets/game/characters/star-apprentice-concept-sheet-transparent.png",
+      "copied_path": "/Users/gvt-akilesh/Developer/aie-hack/public/assets/game/generated/developer-apprentice-run/references/reference-01.png"
+    }
+  ],
+  "chroma_key": {
+    "hex": "#00FF00",
+    "rgb": [
+      0,
+      255,
+      0
+    ],
+    "name": "green",
+    "selection": "auto",
+    "score": 210.66
+  },
+  "pet_notes": "Create a developer-style platformer protagonist, not a traditional fantasy avatar. Keep the same youthful chibi proportions, silver-blue hair, readable face, and side-view platformer silhouette, but change the outfit to modern developer clothing: dark tech hoodie or lightweight jacket, T-shirt, slim utility pants, sneakers, lanyard or ID badge, small crossbody laptop bag, tiny keyboard or glowing cursor/prompt wand instead of a feather quill. Avoid robes, tunics, cloaks, medieval belts, boots, scrolls, swords, shields, wizard or adventurer clothing. The final in-game sheet should feel like a coder entering an AI dungeon. style preset: pixel-platformer; animation preset: platformer; view: side-view; animations: idle, walk-right, walk-left, jump, prompt, cheer; cell size: 362x724",
+  "style_notes": "",
+  "house_style": "Codex digital pet sprite style: pixel-art-adjacent low-resolution mascot sprite, compact chibi proportions, chunky whole-body silhouette, thick dark 1-2 px outline, visible stepped/pixel edges, limited palette, flat cel shading with at most one small highlight and one shadow step, simple readable face, tiny limbs, and no detail that disappears at 192x208. Avoid polished illustration, painterly rendering, anime key art, 3D render, vector app-icon polish, glossy lighting, soft gradients, realistic fur or material texture, anti-aliased high-detail edges, and complex tiny accessories.",
+  "primary_generation_skill": "$imagegen",
+  "canonical_identity_reference": {
+    "path": "references/canonical-base.png",
+    "source_job": "base",
+    "sha256": "3c4751b17f6784c7645e845bd31a6df1d29883f743a47b5f1a519593b75517ca",
+    "metadata": {
+      "width": 2172,
+      "height": 724,
+      "mode": "RGB",
+      "format": "PNG"
+    }
+  }
+}
